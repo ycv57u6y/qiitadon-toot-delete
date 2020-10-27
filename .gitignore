@@ -1,0 +1,17 @@
+
+# system
+.*
+
+# git
+!.gitignore
+!.gitattributes
+
+# ruby
+!.ruby-version
+Gemfile.lock
+
+# project
+*.env
+log
+*.log
+run
