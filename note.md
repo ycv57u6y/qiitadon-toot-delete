@@ -43,6 +43,12 @@ Mastodon 2.3.3 を採用する現在の Qiitadon には `min_id` オプション
 
 の繰り返しで、先頭の指定位置から古いトゥートをリクエストで返ってくるぶんだけ取得できるので、あとは工夫して何とかする。
 
+## レート制限
+
+トゥート削除のリクエストのレート制限は **1 アカウントあたり 30 回/30 分。**
+
+- [Rate limits](https://docs.joinmastodon.org/api/rate-limits/) - [Mastodon Documentation](https://docs.joinmastodon.org/)
+
 ## 経過日数をチェックして削除する場合
 
 もし、簡易な方法で最古のトゥートから順に取得できるようになった場合は「◯◯日より古いトゥートを削除する」スクリプトも実装できる。
