@@ -1,5 +1,7 @@
 
-# 開発用ノート
+# qiitadon-toot-delete/DEVELOPER.md
+
+開発用の参考資料。
 
 ## mastodon-api
 
