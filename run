@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WORKING_DIR=`dirname $0`
+WORKING_DIR=$(cd $(dirname $0); pwd)
 
 docker run \
   --mount type=bind,source="$WORKING_DIR",target=/app/src \
